@@ -1,0 +1,27 @@
+header{
+    display: flex;
+    padding-inline: 16px;
+    // padding-block: 8px;
+    background-color: #333;
+    font-size: 24px;
+    color: white;
+    align-items: center;
+}
+.navbar{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.navbar ul{
+    list-style-type: none;
+}
+.navbar span:hover{
+    cursor: pointer;
+    color: gray;
+}
+
+.navbar ul li:hover{
+    cursor: pointer;
+    color: gray;
+}
